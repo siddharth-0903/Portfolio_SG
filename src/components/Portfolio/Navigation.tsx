@@ -57,13 +57,15 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 rounded-full bg-gradient-primary flex items-center justify-center">
-              <span className="text-sm font-bold text-primary-foreground">
-                SG
-              </span>
-            </div>
+          <div className="w-8 h-8 rounded-full bg-gradient-primary flex items-center justify-center overflow-hidden">
+    <img
+      src="/favicon.ico" 
+      alt="Logo"
+      className="w-8 h-8 object-contain"
+    />
+  </div>
             <span className="text-xl font-bold text-foreground">
-              Siddharth Goswami
+              Portfolio
             </span>
           </div>
 
