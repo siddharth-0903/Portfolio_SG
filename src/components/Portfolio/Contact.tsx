@@ -36,19 +36,33 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
+<<<<<<< HEAD
       value: "siddharth43e@gmail.com",
       link: "mailto:siddharth43e@gmail.com"
+=======
+      value: "your.email@example.com",
+      link: "mailto:your.email@example.com"
+>>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
     },
     {
       icon: Phone,
       label: "Phone",
+<<<<<<< HEAD
       value: "+91 878782591",
       link: "tel:+918787825931"
+=======
+      value: "+91 12345 67890",
+      link: "tel:+911234567890"
+>>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
     },
     {
       icon: MapPin,
       label: "Location",
+<<<<<<< HEAD
       value: "Meghalaya, India",
+=======
+      value: "Your City, India",
+>>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       link: "#"
     }
   ];
@@ -57,19 +71,31 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
+<<<<<<< HEAD
       url: "https://github.com/siddharth-0903/",
+=======
+      url: "https://github.com/yourusername",
+>>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       color: "hover:text-gray-800"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
+<<<<<<< HEAD
       url: "https://www.linkedin.com/in/siddharth-goswami-/",
+=======
+      url: "https://linkedin.com/in/yourprofile",
+>>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       color: "hover:text-blue-600"
     },
     {
       icon: Twitter,
       label: "Twitter",
+<<<<<<< HEAD
       url: "https://twitter.com/SiddharthPradi1",
+=======
+      url: "https://twitter.com/yourusername",
+>>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       color: "hover:text-blue-400"
     }
   ];
