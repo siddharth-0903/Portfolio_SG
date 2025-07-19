@@ -16,51 +16,31 @@ const Skills = () => {
     {
       icon: Code,
       title: "Programming Languages",
-<<<<<<< HEAD
       skills: ["JavaScript", "C++", "HTML5", "CSS3"],
-=======
-      skills: ["JavaScript", "Python", "Java", "C++", "HTML5", "CSS3"],
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       color: "bg-blue-500"
     },
     {
       icon: Globe,
       title: "Web Development",
-<<<<<<< HEAD
       skills: ["Php", "React", "Node.js", "AJAX"],
-=======
-      skills: ["React", "Node.js", "Express.js", "RESTful APIs", "JSON", "AJAX"],
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       color: "bg-green-500"
     },
     {
       icon: Database,
       title: "Database & Backend",
-<<<<<<< HEAD
       skills: ["MySQL", "SQL", "Database Design", "Data Structures"],
-=======
-      skills: ["MySQL", "MongoDB", "SQL", "Database Design", "Data Structures"],
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       color: "bg-purple-500"
     },
     {
       icon: Palette,
       title: "Design & UI/UX",
-<<<<<<< HEAD
       skills: ["Responsive Design", "Bootstrap", "Figma", "User Experience"],
-=======
-      skills: ["Responsive Design", "Tailwind CSS", "Bootstrap", "Figma", "User Experience"],
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       color: "bg-pink-500"
     },
     {
       icon: GitBranch,
       title: "Tools & Technologies",
-<<<<<<< HEAD
       skills: ["Git", "GitHub", "VS Code", "Canva", "Chat GPT", "Claude", "Gemini"],
-=======
-      skills: ["Git", "GitHub", "VS Code", "Linux", "npm", "Webpack"],
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       color: "bg-orange-500"
     },
     {
@@ -128,11 +108,7 @@ const Skills = () => {
               </p>
               <div className="flex flex-wrap justify-center gap-3">
                 <Badge variant="outline" className="text-sm border-primary text-primary">
-<<<<<<< HEAD
                   Currently Learning: React 
-=======
-                  Currently Learning: React Advanced Patterns
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
                 </Badge>
                 <Badge variant="outline" className="text-sm border-accent text-accent">
                   Next: TypeScript & Modern Backend

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Heart, ArrowUp, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowUp, Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -16,15 +16,9 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start space-x-2 mb-4">
               <div className="w-8 h-8 rounded-full bg-gradient-primary flex items-center justify-center">
-<<<<<<< HEAD
                 <span className="text-sm font-bold text-primary-foreground">SG</span>
               </div>
               <span className="text-xl font-bold text-foreground">Siddharth Goswami</span>
-=======
-                <span className="text-sm font-bold text-primary-foreground">YN</span>
-              </div>
-              <span className="text-xl font-bold text-foreground">Your Name</span>
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
             </div>
             <p className="text-muted-foreground text-sm max-w-xs mx-auto md:mx-0">
               BCA Graduate passionate about creating innovative web solutions and turning ideas into digital reality.
@@ -66,11 +60,7 @@ const Footer = () => {
           <div className="text-center md:text-right">
             <div className="flex justify-center md:justify-end space-x-4 mb-4">
               <a
-<<<<<<< HEAD
                 href="https://github.com/siddharth-0903/"
-=======
-                href="https://github.com/yourusername"
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300"
@@ -79,11 +69,7 @@ const Footer = () => {
                 <Github className="h-5 w-5" />
               </a>
               <a
-<<<<<<< HEAD
                 href="https://www.linkedin.com/in/siddharth-goswami-/"
-=======
-                href="https://linkedin.com/in/yourprofile"
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:text-blue-600 hover:bg-blue-50 transition-all duration-300"
@@ -92,11 +78,7 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-<<<<<<< HEAD
                 href="mailto:siddharth43e@gmail.com"
-=======
-                href="mailto:your.email@example.com"
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
                 className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:text-primary hover:bg-primary/10 transition-all duration-300"
                 aria-label="Email"
               >
@@ -118,20 +100,11 @@ const Footer = () => {
         {/* Bottom: Copyright */}
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm flex items-center justify-center space-x-1">
-<<<<<<< HEAD
             <span>© {currentYear} Siddharth Goswami.</span>
             
           </p>
           <p className="text-muted-foreground text-xs mt-2">
             Built with React
-=======
-            <span>© {currentYear} Your Name. Made with</span>
-            <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-            <span>and lots of code.</span>
-          </p>
-          <p className="text-muted-foreground text-xs mt-2">
-            Built with React, TypeScript, and Tailwind CSS
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
           </p>
         </div>
       </div>

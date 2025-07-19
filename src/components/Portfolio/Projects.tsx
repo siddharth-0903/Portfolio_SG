@@ -6,36 +6,20 @@ import { ExternalLink, Github, Code, Rocket, Plus } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-<<<<<<< HEAD
       title: "Ecommerce Website",
       description: "A responsive ecommerce website built with Php and modern web technologies. Features smooth animations, mobile-first design, and optimized performance.",
       technologies: ["Php", "MySQL", "JavaScript", "Bootstrap"],
       status: "Basic modules Completed",
       github: "https://github.com/siddharth-0903/Ecommerce-website.git",
-=======
-      title: "Portfolio Website",
-      description: "A responsive personal portfolio website built with React and modern web technologies. Features smooth animations, mobile-first design, and optimized performance.",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      status: "Completed",
-      github: "#",
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       live: "#",
       featured: true
     },
     {
-<<<<<<< HEAD
       title: "Weather Dashboard",
       description: "Academic project for providing real-time weather updates for cities worldwide. Includes API integration, dynamic UI rendering based on weather conditions, light/dark mode support, and error handling. Features include location-based search, responsive design, and visual weather indicators.",
       technologies: ["React", "CSS", "OpenWeatherMap API"],
       status: "Academic Project",
       github: "https://github.com/siddharth-0903/Weather-Dashboard",
-=======
-      title: "University Management System",
-      description: "Academic project for managing student records, courses, and faculty information. Includes user authentication, data validation, and reporting features.",
-      technologies: ["Java", "MySQL", "Swing", "JDBC"],
-      status: "Academic Project",
-      github: "#",
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
       featured: false
     },
     {
@@ -120,7 +104,6 @@ const Projects = () => {
                   </div>
                   
                   <div className="flex items-center justify-center">
-<<<<<<< HEAD
   <div className="w-full h-74 bg-gradient-primary rounded-lg flex items-center justify-center overflow-hidden">
     <video
       className="h-full w-full object-cover rounded-lg"
@@ -133,12 +116,6 @@ const Projects = () => {
   </div>
 </div>
 
-=======
-                    <div className="w-full h-64 bg-gradient-primary rounded-lg flex items-center justify-center">
-                      <Code className="h-24 w-24 text-primary-foreground opacity-60" />
-                    </div>
-                  </div>
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
                 </div>
               </CardContent>
             </Card>

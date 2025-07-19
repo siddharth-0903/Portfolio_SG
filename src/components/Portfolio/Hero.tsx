@@ -11,7 +11,6 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center relative bg-gradient-hero">
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto animate-fade-in">
-<<<<<<< HEAD
       {/* Professional Avatar */}
 <div className="w-44 h-44 mx-auto mb-8 rounded-full bg-gradient-primary p-1 animate-glow-pulse transition-transform duration-300 hover:scale-105 shadow-xl">
   <div className="w-full h-full rounded-full overflow-hidden bg-background flex items-center justify-center">
@@ -28,18 +27,6 @@ const Hero = () => {
           {/* Main Content */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent leading-tight">
             Siddharth Goswami
-=======
-          {/* Professional Avatar */}
-          <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-primary p-1 animate-glow-pulse">
-            <div className="w-full h-full rounded-full bg-background flex items-center justify-center text-4xl font-bold text-primary">
-              YN
-            </div>
-          </div>
-
-          {/* Main Content */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent leading-tight">
-            Your Name
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-4 font-medium">
@@ -74,7 +61,6 @@ const Hero = () => {
           </div>
 
           {/* Quick Actions */}
-<<<<<<< HEAD
 <div className="flex justify-center space-x-6 text-muted-foreground">
   <a
     href="/cv.pdf"
@@ -87,14 +73,6 @@ const Hero = () => {
   </a>
 </div>
 
-=======
-          <div className="flex justify-center space-x-6 text-muted-foreground">
-            <button className="hover:text-primary transition-colors duration-300 flex items-center space-x-2">
-              <Download className="h-4 w-4" />
-              <span className="text-sm">Download CV</span>
-            </button>
-          </div>
->>>>>>> edcb0f7bdc75bbdfe4e7656aeeee556200e1695b
         </div>
       </div>
 
